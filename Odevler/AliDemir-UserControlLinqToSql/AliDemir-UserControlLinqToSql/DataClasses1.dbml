@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TurkeyProvinces" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ABC-BILGISAYAR\MHMTENES13;Initial Catalog=TurkeyProvinces;Integrated Security=True" SettingsObjectName="AliDemir_UserControlLinqToSql.Properties.Settings" SettingsPropertyName="TurkeyProvincesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Province" Member="Provinces">
+    <Type Name="Province">
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvinceName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlateCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Images" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PlaceToVisitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WhatFamousID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PopulationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransportationServiceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartyID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

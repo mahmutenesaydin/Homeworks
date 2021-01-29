@@ -1,0 +1,9 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\bin\Debug\Hafta 4 - LINQ.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\bin\Debug\Hafta 4 - LINQ.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\bin\Debug\Hafta 4 - LINQ.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta 4 - LINQ.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta_4___LINQ.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta_4___LINQ.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta 4 - LINQ.csproj.GenerateResource.Cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta 4 - LINQ.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Hafta 4 - LINQ\Hafta 4 - LINQ\obj\Debug\Hafta 4 - LINQ.pdb

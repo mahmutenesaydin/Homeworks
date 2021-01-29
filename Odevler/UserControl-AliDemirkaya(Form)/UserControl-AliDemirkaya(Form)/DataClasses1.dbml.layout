@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 9" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="74757fa2-3d6d-4c35-893b-0892e8196cf9" absoluteBounds="6.25, 4.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DataClasses1DataContext/Town" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cba1f4b-af2f-422d-a2f4-1ba91e5bd0f5" absoluteBounds="6.265, 5.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dd9688e0-a89b-4489-b76f-e508b406adab" absoluteBounds="9, 4.625, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DataClasses1DataContext/Village" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9728ae3-72b7-4bdc-9c13-dded7c74b948" absoluteBounds="9.015, 5.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7fa97456-2a89-4f9b-aa7a-ede81b1b85c2" absoluteBounds="0.75, 3.5, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/DataClasses1DataContext/Population" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e96b0987-30fc-4e3f-b28b-f19734a16fa5" absoluteBounds="0.765, 3.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60014de2-8699-4a59-93e8-f957ef67b0c8" absoluteBounds="3.5, 6, 2, 2.7324039713541675">
+      <DataClassMoniker Name="/DataClasses1DataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28a10f2f-f7bc-4d75-9c1b-5d726c71e009" absoluteBounds="3.515, 6.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 5.63544840494792); (9 : 5.63544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Town/Town_Village" />
+      <nodes>
+        <classShapeMoniker Id="74757fa2-3d6d-4c35-893b-0892e8196cf9" />
+        <classShapeMoniker Id="dd9688e0-a89b-4489-b76f-e508b406adab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.09699625651042); (7.25 : 4.09699625651042); (7.25 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Town" />
+      <nodes>
+        <classShapeMoniker Id="7fa97456-2a89-4f9b-aa7a-ede81b1b85c2" />
+        <classShapeMoniker Id="74757fa2-3d6d-4c35-893b-0892e8196cf9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.76724562825521); (10 : 3.76724562825521); (10 : 4.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Village" />
+      <nodes>
+        <classShapeMoniker Id="7fa97456-2a89-4f9b-aa7a-ede81b1b85c2" />
+        <classShapeMoniker Id="dd9688e0-a89b-4489-b76f-e508b406adab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.70755126953125); (6.25 : 6.70755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Province/Province_Town" />
+      <nodes>
+        <classShapeMoniker Id="60014de2-8699-4a59-93e8-f957ef67b0c8" />
+        <classShapeMoniker Id="74757fa2-3d6d-4c35-893b-0892e8196cf9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 4.69399251302083); (1.75 : 7.36620198567708); (3.5 : 7.36620198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Province" />
+      <nodes>
+        <classShapeMoniker Id="7fa97456-2a89-4f9b-aa7a-ede81b1b85c2" />
+        <classShapeMoniker Id="60014de2-8699-4a59-93e8-f957ef67b0c8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

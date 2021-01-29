@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="57560728-6b83-415b-aaef-42e61d019faf" absoluteBounds="1.25, 0.75, 2, 4.2708154296875">
+      <DataClassMoniker Name="/DataClasses1DataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80928b2e-9fe9-4919-8d99-0cea16ff13cf" absoluteBounds="1.2650000000000001, 1.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.95923076923077 : 5.0208154296875); (1.95923076923077 : 5.2708154296875); (2.55461538461538 : 5.2708154296875); (2.55461538461538 : 5.0208154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Employee/Employee_Employee" />
+      <nodes>
+        <classShapeMoniker Id="57560728-6b83-415b-aaef-42e61d019faf" />
+        <classShapeMoniker Id="57560728-6b83-415b-aaef-42e61d019faf" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

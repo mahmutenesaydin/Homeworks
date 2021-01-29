@@ -1,0 +1,4 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\projecfff\Entities\bin\Debug\Entities.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\projecfff\Entities\bin\Debug\Entities.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\projecfff\Entities\obj\Debug\Entities.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\projecfff\Entities\obj\Debug\Entities.pdb

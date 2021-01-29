@@ -1,0 +1,12 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\BussinesLayer.dll.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\BussinesLayer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\BussinesLayer.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\DataLayer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\EntityFramework.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\DataLayer.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\EntityFramework.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\obj\Debug\BussinesLayer.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\obj\Debug\BussinesLayer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\BankSolution\BussinesLayer\obj\Debug\BussinesLayer.pdb

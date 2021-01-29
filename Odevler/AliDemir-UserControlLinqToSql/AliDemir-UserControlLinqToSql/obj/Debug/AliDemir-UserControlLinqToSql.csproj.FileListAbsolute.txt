@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\bin\Debug\AliDemir-UserControlLinqToSql.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\obj\Debug\AliDemir-UserControlLinqToSql.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\obj\Debug\AliDemir_UserControlLinqToSql.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\obj\Debug\AliDemir_UserControlLinqToSql.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\obj\Debug\AliDemir_UserControlLinqToSql.UserDetails.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\AliDemir-UserControlLinqToSql\AliDemir-UserControlLinqToSql\obj\Debug\AliDemir-UserControlLinqToSql.csproj.GenerateResource.Cache

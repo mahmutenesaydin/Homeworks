@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c890c747809492cafcd1a7fecd95757" Name="Diagram1">
+        <EntityTypeShape EntityType="TurkeyProvincesModel.PlacesToVisit" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.Population" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.Province" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.Region" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.RulingParty" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.Town" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.TransportationService" Width="1.5" PointX="0.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.User" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.Village" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="TurkeyProvincesModel.WhatFamou" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__PartyI__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__PlaceToVis__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__Popula__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__Population__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Village__Populat__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__PartyI__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__Region__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__Transp__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Province__WhatFa__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__PartyID__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Users__ProvinceI__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__PartyID__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__Transporta__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Town__WhatFamous__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="TurkeyProvincesModel.FK__Village__TownID__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

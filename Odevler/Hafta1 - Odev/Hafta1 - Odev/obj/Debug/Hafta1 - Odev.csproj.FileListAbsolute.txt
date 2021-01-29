@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\bin\Debug\Hafta1 - Odev.exe.config
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1 - Odev.csprojResolveAssemblyReference.cache
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1___Odev.Form1.resources
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1___Odev.Properties.Resources.resources
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1 - Odev.csproj.GenerateResource.Cache
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\bin\Debug\Hafta1 - Odev.exe
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\bin\Debug\Hafta1 - Odev.pdb
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1 - Odev.exe
+C:\Users\abc\documents\visual studio 2015\Projects\Hafta1 - Odev\Hafta1 - Odev\obj\Debug\Hafta1 - Odev.pdb

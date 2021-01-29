@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\bin\Debug\MorsAlfabesiOdev.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\bin\Debug\MorsAlfabesiOdev.exe
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\bin\Debug\MorsAlfabesiOdev.pdb
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.exe
+c:\users\abc\documents\visual studio 2015\Projects\MorsAlfabesiOdev\MorsAlfabesiOdev\obj\Debug\MorsAlfabesiOdev.pdb

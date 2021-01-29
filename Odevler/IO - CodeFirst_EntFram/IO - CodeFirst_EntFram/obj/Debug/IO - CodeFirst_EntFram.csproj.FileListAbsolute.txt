@@ -1,0 +1,13 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\IO - CodeFirst_EntFram.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\IO - CodeFirst_EntFram.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\IO - CodeFirst_EntFram.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\EntityFramework.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\EntityFramework.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO - CodeFirst_EntFram.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO___CodeFirst_EntFram.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO___CodeFirst_EntFram.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO - CodeFirst_EntFram.csproj.GenerateResource.Cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO - CodeFirst_EntFram.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\WebServices\Şahin Hoca\Ödevler\IO - CodeFirst_EntFram\IO - CodeFirst_EntFram\obj\Debug\IO - CodeFirst_EntFram.pdb

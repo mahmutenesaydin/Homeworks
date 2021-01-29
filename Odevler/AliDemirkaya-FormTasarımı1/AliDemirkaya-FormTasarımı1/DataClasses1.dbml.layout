@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="45f147cb-d84f-44db-96a5-743f92568254" absoluteBounds="3.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="821ba8ac-e5ab-4f44-8534-370654da1935" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc1ce380-c918-41e6-b25d-519050b10f12" absoluteBounds="6, 1.375, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/DataClasses1DataContext/Town" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed06c7e3-2840-480d-a4cb-febaad256e11" absoluteBounds="6.015, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d964fe1f-2984-4556-8f32-d00b5a95f076" absoluteBounds="8.25, 1.625, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/DataClasses1DataContext/Village" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f21f81b-9bfb-4605-a858-3b394f98ec13" absoluteBounds="8.265, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de90018a-d5e1-47dd-8e03-04660bfd6a94" absoluteBounds="1.125, 1.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataClasses1DataContext/Population" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cda76848-ea71-4ad3-8e47-47e1314f0120" absoluteBounds="1.1400000000000001, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.55370198567708); (6 : 2.55370198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Province/Province_Town" />
+      <nodes>
+        <classShapeMoniker Id="45f147cb-d84f-44db-96a5-743f92568254" />
+        <classShapeMoniker Id="cc1ce380-c918-41e6-b25d-519050b10f12" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 2.51044840494792); (8.25 : 2.51044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Town/Town_Village" />
+      <nodes>
+        <classShapeMoniker Id="cc1ce380-c918-41e6-b25d-519050b10f12" />
+        <classShapeMoniker Id="d964fe1f-2984-4556-8f32-d00b5a95f076" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.125 : 2.34699625651042); (3.5 : 2.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Province" />
+      <nodes>
+        <classShapeMoniker Id="de90018a-d5e1-47dd-8e03-04660bfd6a94" />
+        <classShapeMoniker Id="45f147cb-d84f-44db-96a5-743f92568254" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.125 : 2.94399251302083); (2.125 : 3.85500325520833); (6 : 3.85500325520833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Town" />
+      <nodes>
+        <classShapeMoniker Id="de90018a-d5e1-47dd-8e03-04660bfd6a94" />
+        <classShapeMoniker Id="cc1ce380-c918-41e6-b25d-519050b10f12" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.125 : 2.01724612825521); (3.4375 : 2.01724612825521); (3.4375 : 0.9375); (9.25 : 0.9375); (9.25 : 1.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Population/Population_Village" />
+      <nodes>
+        <classShapeMoniker Id="de90018a-d5e1-47dd-8e03-04660bfd6a94" />
+        <classShapeMoniker Id="d964fe1f-2984-4556-8f32-d00b5a95f076" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

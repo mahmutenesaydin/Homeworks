@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TurkeyProvinces" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ABC-BILGISAYAR\MHMTENES13;Initial Catalog=TurkeyProvinces;Integrated Security=True" SettingsObjectName="UserControl_AliDemirkaya_Form_.Properties.Settings" SettingsPropertyName="TurkeyProvincesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Town" Member="Towns">
+    <Type Name="Town">
+      <Column Name="TownID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TownName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Images" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PlaceToVisitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WhatFamousID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PopulationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransportationServiceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartyID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Town_Village" Member="Villages" ThisKey="TownID" OtherKey="TownID" Type="Village" />
+      <Association Name="Population_Town" Member="Population" ThisKey="PopulationID" OtherKey="PopulationID" Type="Population" IsForeignKey="true" />
+      <Association Name="Province_Town" Member="Province" ThisKey="ProvinceID" OtherKey="ProvinceID" Type="Province" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Village" Member="Villages">
+    <Type Name="Village">
+      <Column Name="VillageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="VillageName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Images" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TownID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PopulationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Town_Village" Member="Town" ThisKey="TownID" OtherKey="TownID" Type="Town" IsForeignKey="true" />
+      <Association Name="Population_Village" Member="Population" ThisKey="PopulationID" OtherKey="PopulationID" Type="Population" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Population" Member="Populations">
+    <Type Name="Population">
+      <Column Name="PopulationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Population" Member="Population1" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Association Name="Population_Town" Member="Towns" ThisKey="PopulationID" OtherKey="PopulationID" Type="Town" />
+      <Association Name="Population_Village" Member="Villages" ThisKey="PopulationID" OtherKey="PopulationID" Type="Village" />
+      <Association Name="Population_Province" Member="Provinces" ThisKey="PopulationID" OtherKey="PopulationID" Type="Province" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Province" Member="Provinces">
+    <Type Name="Province">
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvinceName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlateCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Images" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PlaceToVisitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WhatFamousID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PopulationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransportationServiceID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartyID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Province_Town" Member="Towns" ThisKey="ProvinceID" OtherKey="ProvinceID" Type="Town" />
+      <Association Name="Population_Province" Member="Population" ThisKey="PopulationID" OtherKey="PopulationID" Type="Population" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
